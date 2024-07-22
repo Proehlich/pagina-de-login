@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IEedgge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script language="javascript" src="script.js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -17,14 +18,14 @@
             <div class="card-login">
                 <h1>Login</h1>
                 <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuario">
+                    <label for="usuario">Conta</label>
+                    <input type="text" name="conta" placeholder="Conta">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
                     <input type="password"name="senha" placeholder="Senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <input type="submit" class="btn-login" onclick="login(); return false"/>
             </div>
         </div>
     </div>
